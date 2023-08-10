@@ -12,7 +12,6 @@ export default function initFuncionamento() {
     const semanaAberto = diasSemana.indexOf(diaAgora) !== -1;
 
     const horarioAberto = (horarioAgora >= horarioSemana[0] && horarioAgora < horarioSemana[1])
-    console.log('Sim é maior');
 
     if (semanaAberto && horarioAberto) {
         funcionamento.classList.add("aberto");
