@@ -22,7 +22,6 @@
   
   .js [data-menu="button"]::before {
     margin-right: 4px;
-    margin-bottom: 3px;
     content: '';
     display: inline-block;
     height: 2px;
