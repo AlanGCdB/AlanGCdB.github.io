@@ -1,13 +1,10 @@
 {
-  "name": "js",
+  "name": "Animais fantasticos",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
   "scripts": {
     "bullid": "webpack --mode production --entry ./js/script.js -o ./mais.js",
     "dev": " webpack --mode development --watch --entry ./js/script.js -o ./mais.js"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.47.0",
@@ -17,7 +14,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "jquery": "^3.7.0",
-    "lodash": "^4.17.21"
+    "@babel/polyfill": "^7.12.1",
+    "whatwg-fetch": "^3.6.17"
   }
 }
