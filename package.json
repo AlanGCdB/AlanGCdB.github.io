@@ -1,5 +1,5 @@
 {
-  "name": "Animais fantasticos",
+  "name": "animais-eslint",
   "version": "1.0.0",
   "scripts": {
     "bullid": "webpack --mode production --entry ./js/script.js -o ./mais.js",
