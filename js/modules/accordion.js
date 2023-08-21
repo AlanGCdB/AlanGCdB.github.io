@@ -5,7 +5,7 @@ export default class Accordion {
   }
 
   toggleAccordion(item) {
-    item.classList.toggle(item.activeClass);
+    item.classList.toggle(this.activeClass);
     item.nextElementSibling.classList.toggle(this.activeClass);
   }
 
